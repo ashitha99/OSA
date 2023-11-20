@@ -1,0 +1,82 @@
+AddressMs
+
+User Story1:Add a New Address
+
+Description:
+As a user, I want to be able to create,update or delete a new address so that I can maintain accurate and up-to-date location information.
+
+Acceptance Criteria:
+
+1.On the "Manage Addresses" page, there should be an option to "Add New Address."
+
+2.The address creation should adhere to the defined data schema, including required fields such as Street Address, City, State, Postal Code, and Country.
+3.Upon successful creation, the system should respond with a confirmation message and the details of the newly created address.The newly created address should be added to the system's address catalog.
+4.If the address data is incomplete or contains errors, the system should respond with appropriate error messages guiding the user on necessary corrections.
+
+User Story 2: View List of Addresses
+Description:
+As a user, I want to view the list of delivery addresses associated with my account.
+Acceptance Criteria:
+
+1.There should be a dedicated "Manage Addresses" section accessible from the user
+account settings.
+2.The user should see a clear and organized list of all their saved addresses.
+3 .Each address entry should display essential information, such as the full address and
+an option to edit or delete.
+
+
+
+User Story 3: Set Default Address
+Description:
+As a user, I want to set one of my addresses as the default delivery address to simplify the
+checkout process.
+Acceptance Criteria:
+
+1.During the address management process, there should be an option to "Set as Default"
+for each address.
+2.The user can choose one address as the default.
+3.The default address should be automatically selected during the checkout process,
+streamlining the order placement.
+
+
+CartMS
+
+
+User Story 1: Add Item to Cart
+
+Description:
+As a user, I want to add items to my shopping cart, so I can review and proceed to purchase them.
+
+Acceptance Criteria:
+
+1.The user should be able to add the product to the cart
+2.Clicking the "Add to Cart" button should update the contents of the user's shopping cart.
+3.The shopping cart should display the added items, including their names, quantities, and prices.
+
+User Story 2: View and Modify Cart Contents
+
+Description:
+As a user, I want to view the contents of my shopping cart and have the ability to modify the quantity or remove items.
+
+Acceptance Criteria:
+
+1.There should be a "View Cart" option accessible from the user interface.
+2.The "View Cart" page should display a list of items in the cart, including names, quantities, prices, and a total.
+3.Users should have the option to increase, decrease, or remove items from the cart.
+4.The total price should update dynamically based on the changes made.
+
+User Story 3: Checkout Process
+
+Description:
+As a user, I want a straightforward checkout process to complete my purchase efficiently.
+
+Acceptance Criteria:
+
+1.There should be a "Checkout" button on the "View Cart" page.
+2.Clicking the "Checkout" button should redirect the user to a checkout page.
+3.The checkout page should display a summary of the order, including items, quantities, and the total price.
+4.Users should be prompted to enter shipping and payment information.
+5.After completing the checkout process, the user should receive a confirmation of the order.
+
+
+
