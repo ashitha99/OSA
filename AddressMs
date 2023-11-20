@@ -25,9 +25,9 @@ Endpoint: /osa/api/addresses/{addressId} (DELETE): Deletes a specific address.
 Address List Retrieval:
 
 Endpoint: /osa/api/addresses (GET): Retrieves a list of all addresses.
-Address Search:
+Address Update:
 
-Endpoint: /osa/api/addresses/search (GET): Retrieves a list of addresses based on search criteria (e.g., city, state, postal code).
+Endpoint: /osa/api/addresses/default_address (GET): Updates the default address
 
 AUTHORIZATION:
 Implement role-based access control (RBAC) to manage user permissions.
