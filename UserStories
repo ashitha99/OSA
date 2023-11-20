@@ -13,6 +13,10 @@ Acceptance Criteria:
 3.Upon successful creation, the system should respond with a confirmation message and the details of the newly created address.The newly created address should be added to the system's address catalog.
 4.If the address data is incomplete or contains errors, the system should respond with appropriate error messages guiding the user on necessary corrections.
 
+Testing Creteria:
+1.Execute a test to confirm that, upon successfully creating a new address:
+2.Test the system's response when attempting to create an address with incorrect data:
+
 User Story 2: View List of Addresses
 Description:
 As a user, I want to view the list of delivery addresses associated with my account.
@@ -24,6 +28,9 @@ account settings.
 3 .Each address entry should display essential information, such as the full address and
 an option to edit or delete.
 
+Testing Creteria:
+1.Test to ensure that each address entry in the list displays essential information, including the full address.
+2.Check if the list is empty when the user has no saved addresses.
 
 
 User Story 3: Set Default Address
@@ -37,6 +44,12 @@ for each address.
 2.The user can choose one address as the default.
 3.The default address should be automatically selected during the checkout process,
 streamlining the order placement.
+
+Testing Criteria:
+1.Confirm that the option to set as default is present.
+2.Attempt to set an address as default that does not exist, and ensure the system handles it appropriately.
+
+
 
 
 CartMS
