@@ -79,5 +79,3 @@ Create comprehensive API documentation using tools like Swagger or OpenAPI.
 DEPLOYMENT:
 Utilize continuous integration and continuous deployment (CI/CD) pipelines for automated testing and deployment.
 
-FUTURE CONSIDERATION:
-Consider features like user notifications, password recovery.
