@@ -15,18 +15,18 @@ Interacts with other microservices such as the User Microservice, Order Microser
 FUNCTIONALITY:
 Address Creation:
 Endpoint: /osa/api/addresses (POST): Allows users to create a new address.
-Address Retrieval and Update:
 
+Address Retrieval and Update:
 Endpoint: /osa/api/addresses/{addressId} (GET): Retrieves details of a specific address.
 Endpoint: /osa/api/addresses/{addressId} (PUT): Updates information about a specific address.
+
 Address Deletion:
-
 Endpoint: /osa/api/addresses/{addressId} (DELETE): Deletes a specific address.
+
 Address List Retrieval:
-
 Endpoint: /osa/api/addresses (GET): Retrieves a list of all addresses.
-Address Update:
 
+Address Update:
 Endpoint: /osa/api/addresses/default_address (GET): Updates the default address
 
 AUTHORIZATION:
