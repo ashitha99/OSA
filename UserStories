@@ -72,11 +72,10 @@ As a user, I want a straightforward checkout process to complete my purchase eff
 
 Acceptance Criteria:
 
-1.There should be a "Checkout" button on the "View Cart" page.
-2.Clicking the "Checkout" button should redirect the user to a checkout page.
-3.The checkout page should display a summary of the order, including items, quantities, and the total price.
-4.Users should be prompted to enter shipping and payment information.
-5.After completing the checkout process, the user should receive a confirmation of the order.
+1.There should be a "Checkout" page
+2.The checkout page should display a summary of the order, including items, quantities, and the total price.
+3.Users should be prompted to enter shipping and payment information.
+4.After completing the checkout process, the user should receive a confirmation of the order.
 
 
 
