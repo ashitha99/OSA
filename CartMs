@@ -1,0 +1,83 @@
+ECHNICAL DESIGN PAGE USER MICROSERVICE…
+
+OVERVIEW:
+The CART Microservice is responsible for managing Cart-related functionalities and interactions.
+Handles CRUD operations for carts and cart items.
+Interacts with the database for data storage,including authentication, authorization.
+
+ARCHITECTURE:
+Programming Language: Java (Which Version?)
+Framework: Spring Boot (Java)
+Database: MySQL/AWS
+Authentication: OAuth 2.0 for secure authentication.
+
+HIGH-LEVEL ARCHITECTURE:
+RESTful API endpoints for communication.
+It interacts with other microservices such as the Stock Microservice,
+Order Microservice, and Authentication Microservice.
+
+FUNCTIONALITY:
+
+API Gateway:
+
+Acts as a single entry point for client requests and routes them to the appropriate services, including the Cart Microservice.
+Handles authentication and authorization through JWT.
+
+Cart Service:
+
+Manages cart-related functionalities and interactions.
+Uses Express.js for routing and handling HTTP requests.
+Handles CRUD operations for carts and cart items.
+Interacts with the database (MongoDB) for data storage.
+
+Workflow:
+Adding Items to Cart:
+
+User sends a POST request to the Cart Microservice's endpoint with product ID and quantity.
+Cart Microservice adds the item to the cart in the database and responds with a success message.
+Viewing Cart Details:
+
+User sends a GET request to retrieve cart details.
+Cart Microservice fetches the cart information from the database or cache, constructs a response, and sends it back to the user.
+Modifying Cart Items:
+
+User sends PATCH/DELETE requests to update or remove items from the cart.
+Cart Microservice processes the request, updates the cart data accordingly in the database, and responds with a success message.
+Checkout Process:
+
+User initiates the checkout by sending a POST request.
+Cart Microservice validates the cart, generates an order, and communicates with other microservices (e.g., Payment, Inventory) to complete the checkout process.
+Notifications and Updates:
+
+Cart Microservice publishes events related to cart changes (e.g., item added, quantity updated) to the message broker.
+Other services subscribed to these events can take appropriate actions (e.g., sending notifications to users, updating inventory).
+Synchronization and Caching:
+
+Cart Microservice synchronizes carts across devices by updating the database and cache as users interact with their carts.
+
+AUTHORIZATION:
+Implement role-based access control (RBAC) to manage user permissions.
+Define roles such as User or Admin.
+
+SECURITY:
+Implement HTTPS for secure communication.
+Store passwords securely using industry-standard hashing algorithms like bcrypt.
+Use JWT tokens for authentication and authorization.
+
+ERROR HANDLING:
+Define clear error messages and status codes for API responses.
+Log errors for debugging purposes.
+
+TESTING:
+Implement unit testing with code coverage.
+integration tests (if Required).
+end-to-end tests to ensure the reliability and stability of the microservice.
+
+DOCUMENTATION:
+Create comprehensive API documentation using tools like Swagger or OpenAPI.
+
+DEPLOYMENT:
+Utilize continuous integration and continuous deployment (CI/CD) pipelines for automated testing and deployment.
+
+FUTURE CONSIDERATION:
+Consider features like user notifications, password recovery.
