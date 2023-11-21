@@ -20,6 +20,7 @@ Testing Creteria:
 User Story 2: View List of Addresses
 Description:
 As a user, I want to view the list of delivery addresses associated with my account.
+
 Acceptance Criteria:
 
 1.There should be a dedicated "Manage Addresses" section accessible from the user
@@ -81,6 +82,7 @@ Acceptance Criteria:
 2.The "View Cart" page should display a list of items in the cart, including names, quantities, prices, and a total.
 3.Users should have the option to increase, decrease, or remove items from the cart.
 4.The total price should update dynamically based on the changes made.
+
 Test Criteria:
 1.The system should handle the request gracefully without causing errors.
 2.The system should handle this as a removal action, and the item should not be displayed in the cart.
@@ -96,6 +98,7 @@ Acceptance Criteria:
 2.The checkout page should display a summary of the order, including items, quantities, and the total price.
 3.Users should be prompted to enter shipping and payment information.
 4.After completing the checkout process, the user should receive a confirmation of the order.
+
 Test Criteria:
 1.The system should not allow the user to proceed to checkout with an empty cart.
 2.The system should retain the items in the cart.
