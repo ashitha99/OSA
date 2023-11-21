@@ -66,6 +66,10 @@ Acceptance Criteria:
 2.Clicking the "Add to Cart" button should update the contents of the user's shopping cart.
 3.The shopping cart should display the added items, including their names, quantities, and prices.
 
+Test Criteria:
+1.Test to check  whether the product should be successfully added to the shopping cart.
+2.The system should not allow the addition of an item with an invalid quantity.
+
 User Story 2: View and Modify Cart Contents
 
 Description:
@@ -77,6 +81,9 @@ Acceptance Criteria:
 2.The "View Cart" page should display a list of items in the cart, including names, quantities, prices, and a total.
 3.Users should have the option to increase, decrease, or remove items from the cart.
 4.The total price should update dynamically based on the changes made.
+Test Criteria:
+1.The system should handle the request gracefully without causing errors.
+2.The system should handle this as a removal action, and the item should not be displayed in the cart.
 
 User Story 3: Checkout Process
 
@@ -89,6 +96,10 @@ Acceptance Criteria:
 2.The checkout page should display a summary of the order, including items, quantities, and the total price.
 3.Users should be prompted to enter shipping and payment information.
 4.After completing the checkout process, the user should receive a confirmation of the order.
+Test Criteria:
+1.The system should not allow the user to proceed to checkout with an empty cart.
+2.The system should retain the items in the cart.
+
 
 
 
