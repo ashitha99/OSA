@@ -68,8 +68,11 @@ Acceptance Criteria:
 3.The shopping cart should display the added items, including their names, quantities, and prices.
 
 Test Criteria:
-1.Test to check  whether the product should be successfully added to the shopping cart.
-2.The system should not allow the addition of an item with an invalid quantity.
+1.Check whether all the necessary fields are filled before attempting to add the product to the cart.
+2.The product should be successfully added to the user's shopping cart.
+3.Try to add multiple products.
+4.The contents of the cart should be updated to include the recently added item(s).
+5.Validate the System's Handling of invalid data.
 
 User Story 2: View and Modify Cart Contents
 
